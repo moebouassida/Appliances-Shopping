@@ -1,0 +1,22 @@
+import requests
+import matplotlib.pyplot as plt 
+
+url = "http://localhost:3020/api/element/getAllElement"
+
+res = requests.get(url)
+
+y_axis = []
+x_axis = []
+
+for i in res.json()["elem"]:
+    y_axis.append(i["name"][:10])
+    x_axis.append(i["price"])
+
+print(x_axis)
+
+plt.stem(x_axis, y_axis)
+plt.xlabel("prices")
+plt.ylabel("elements")
+plt.title("element per price")
+plt.grid(True)
+plt.show()
