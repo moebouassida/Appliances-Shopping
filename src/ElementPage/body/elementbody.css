@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Gilory";
+    src: local("Gilory"), url("../fonts/Gilroy-Light.otf") format("truetype");
+  }
+
+@font-face {
+    font-family: "Futur";
+    src: local("Futur"), url("../fonts/Futura\ Heavy\ font.ttf") format("truetype");
+  }  
+
+@font-face {
+    font-family: "Muli";
+    src: local("Muli"), url("../fonts/muli.regular.ttf") format("truetype");
+  }    
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+html, body {
+    height: 100vh;
+}
+
+#container_ {
+    min-height: 100%;
+    margin-bottom: 250px;
+
+}
+
+#main_ {
+
+    position: relative;
+    top: 0;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: -10vh;
+}
+
+#sep1 {
+    position: relative;
+    background-color: #F6F6F6;
+    height: 6vh;
+}
+
+.favIcon {
+    position: absolute;
+    top: 2%;
+    right:5.5%;        
+}
+
+
+.elementName { 
+    overflow: none;
+    word-wrap: break-word;
+    position: relative;
+    text-align: left;
+    left: 9%;
+    top: 40px;
+    width: 30%;
+    padding: 0;
+}
+
+.elementName h1 {   
+    font-size: 2.5vw;
+    text-align: left ;
+    font-weight: bold;
+    font-family: "Gilory", Sans Serif;
+}
+
+.elementDesc {
+    overflow: none;
+    position: relative;
+    word-wrap: break-word;
+    left: 12%;
+    top: 60px;
+    width: 23%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.elementDesc h1 {
+    font-size:1.5vw;
+    font-weight: lighter;
+    font-family: 'Playfair Display', Sans Serif;
+}
+
+.elementInfoR {
+    position: relative;
+    left:57%;
+    bottom: 320px;
+    background-color: #E8EBF2;
+    width: 29.7vw;
+    height: 61vh;
+    border-radius: 15px;
+}
+
+.elementPrice {
+    position: absolute;
+    left: 32%;
+    bottom: -8vh;
+    font-size: 2vw;
+    font-family: 'Futur';
+    color: #282C40;
+}
+
+.rating {
+    position: absolute;
+    left: 12%;
+    top: 65%;
+}
+
+.colorChoice {
+    position: absolute;
+    left: 12%;
+    top: 68%;
+    box-sizing: border-box;
+    padding-left: 9px;
+    margin-top: 67px;
+    display: flex;
+}
+
+.colorChoice h1 {
+    font-family: 'Futur';
+    font-weight: bolder;
+    font-size: 1.3vw;
+    margin-right: 40px;
+    margin-top: 1.5vh;
+}
+
+.colors {
+    display: flex;
+}
+
+.color {
+    width: 3.6vw;
+    height: 7vh;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#color1 {
+    background-color: grey;
+}
+
+#color2 {
+    background-color: black;
+}
+
+
+#btn {
+    position: relative;
+    left: 38%;
+    bottom: 1vh;
+    border: none;
+    border-radius: 10px;
+    padding: 2.1vh 8.8vw;
+    background-color: #4D79D7;
+    font-family: 'Muli';
+    font-size: 1.2vw;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#btn:active {
+    opacity: 0.9;
+}
+
+#sep2 {
+        position: relative;
+        background-color: #F6F6F6;
+        bottom: -21vh;
+        height: 6vh;
+}

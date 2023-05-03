@@ -1,0 +1,148 @@
+@import url(//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold);
+@import url(//db.onlinewebfonts.com/c/0744a43ed7aac352ec78c1404c890d72?family=Gilroy+Light);
+:root
+{
+    background-color: #F6F6F6;
+
+}
+.image-shop
+{
+    width: 150px;
+    height: 150px;
+}
+
+.choose-shop
+{
+    background-color:'#F6F6F6' ;
+    color: #000;
+    font-weight: bold;
+    font-family: "Gilroy Light";
+    border: 2px solid #4D79D7;
+    border-radius: 10px;
+    width: 170px;
+    height: 30px;
+}
+.choose-shop:hover,.choose-shop:focus {
+    border: 3px solid #4D79D7;
+  }
+.select-shop
+{
+    display: flex;
+    flex-direction: column;
+}
+.label-shop
+{
+    font-family: "Gilroy ExtraBold";
+    font-size: 12px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.contenaire1-shop
+{
+    background-color: #E8EBF2;
+    width:43vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
+
+.contenaire2-shop
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EBF2;
+    width: 100%;
+    height: 30vh;
+}
+.contenaire3-shop
+{
+    background-color: #FFFFFF;
+    display:block;
+    width: 100%;
+    height: 28vh;
+    margin-top: 5%;
+}
+
+.elemName-shop
+{
+    font-family: "Gilroy ExtraBold";
+    font-size: 16px;
+    text-align: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.contenaire4-shop{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.button-shop{
+    margin-right: 1vw;
+    width: 50%;
+    height: auto;
+    margin-top: 8%;
+    margin-bottom : 8%;
+    color: #5780D9 ;
+    background-color:#FFFFFF ;
+    border:solid #5780D9 2px ;
+    border-radius: 10%;
+    font-size: 1.5vh;
+    font-weight: bolder;
+}
+.button-shop:hover{
+    cursor:pointer;
+    color: #FFFFFF ;
+    background-color:#5780D9 ;
+    opacity: 0.85;
+}
+@media screen and (min-width:725px)and (max-width:1078px){.elements-shop{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+}}
+@media screen and (min-width:1079px){.elements-shop{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}}
+@media screen and (min-width:400px) and (max-width: 971px) {
+    .elements-shop{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+.contenaire1-shop
+{
+    background-color: #E8EBF2;
+    width:30vh;
+    display:flex;
+    flex-direction: column;
+    height:60vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}}
+
+.allpage-shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

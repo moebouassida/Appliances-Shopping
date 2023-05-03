@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@418;592&family=Playfair+Display&display=swap');
+
+
+
+#done {
+    color: black;
+}
+
+.doneSection {
+    position: absolute;
+    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    left:5%;
+    right: 5%;
+    top: 21%;
+    background-color: white;
+    padding-bottom: 50px;
+    box-shadow: 0px 20px 30px 0 rgba(0,0,0,.1);
+}
+
+
+#hr_ {
+    border: none;
+    height: 2px;
+    background-color: #4D79D7;
+}
+
+img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    margin-top: 50px;
+}
+
+#h3 {
+    margin-left: 42%;
+    font-size: 30px;
+    font-family: 'Gilory';
+    color: #1B2437;
+    font-weight: lighter;
+}
+
+#shopBtn {
+    margin-top: 30px;
+    margin-left: 47%;
+    background-color: #4D79D7;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Muli';
+    color: white;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+}

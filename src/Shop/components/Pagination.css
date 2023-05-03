@@ -1,0 +1,36 @@
+.square-pagination-nonactive
+{
+   background-color: #F6F6F6;
+   border: none;
+   margin-left: 0.25vw;
+   margin-right: 0.25vw;
+
+}
+.square-pagination-nonactive:hover{
+    background-color: #5780D9;
+   color: white;
+   border: #5780D9 solid;
+   border-radius: 25%;
+   opacity: 0.6;
+   cursor: pointer;
+   font-weight: bold;
+}
+.square-pagination-active
+{
+   background-color: #5780D9;
+   color: white;
+   border: #5780D9 solid;
+   border-radius: 25%;
+   font-weight: bold;
+}
+.square-pagination-active:hover{
+    opacity: 0.6;
+   cursor: pointer;
+}
+
+.pagination-pagination
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

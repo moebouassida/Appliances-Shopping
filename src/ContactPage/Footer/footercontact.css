@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.upFooter {
+    position: relative;
+    right: 0;
+    left: 0;
+    display: flex;
+ }
+
+.info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links {
+    margin-bottom: 25px;
+}
+
+#link {
+    margin-top: 37px;
+}
+
+.info a {
+    color: #8E8E93;
+    font-family: 'Muli';
+    text-decoration: none;
+}
+
+.headTitle {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', Sans Serif;
+    font-size: 25px;
+}
+
+#input {
+    position: absolute;
+    padding: 15px 60px 15px 10px;
+    bottom: 40px;
+    border-radius: 8px;
+    border: 2px solid #E5E5EA;
+}
+
+#input::placeholder {
+    font-size: 14px;
+    color: #C7C7CC;
+    opacity: 1;
+}
+
+.sendbtn {
+    position: absolute;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 200px;
+    border-radius: 12px;
+    margin-top: 45px;
+    background-color: #4D79D7;
+    color: white;
+    text-decoration: none;
+    bottom: 40px;
+    right: 10.5%;
+}
+
+.sendbtn:hover {
+    cursor: pointer;
+}
+
+.downFooter {
+    position: relative;
+    display: flex;
+    right: 0;
+    left: 0;
+    background-color: #EFEFF4;
+}
+
+.copyright {
+    position: relative;
+    left: 13%;
+    font-size: 15px;
+    font-family: 'Muli';
+    color: #8E8E93;
+}

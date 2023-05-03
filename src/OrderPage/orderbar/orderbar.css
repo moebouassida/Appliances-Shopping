@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Gilory";
+    src: local("Gilory"), url("../fonts/Gilroy-Light.otf") format("truetype");
+  }
+
+.bar {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    right: 0;
+    height: 60px;
+    background-color: white;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+    width: 90%;
+    box-shadow: 0px 0px 30px 0 rgba(0,0,0,.1);
+}
+
+.order {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.procedure {
+    position: absolute;
+    font-size: 20px;
+    color: #D1D1D6;
+    font-family: 'Gilory';
+    padding: 18px;
+}
+
+#cart {
+    left: 7%
+}
+
+#ship {
+    left: 45%
+}
+
+#done {
+
+    right: 7%;
+}
+

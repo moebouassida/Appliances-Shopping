@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    background-color: #F6F6F6;
+}
+
+#main {
+    overflow: auto;
+}
+
+#map {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 90px;
+    cursor: move;
+}
+
+#marker {
+    position: absolute;
+    top: 29.2%;
+    left: 48.7%;
+    width: 45px;
+    height: 55px;
+    cursor: pointer;
+}
+
+#name {
+    position: absolute;
+    top: 37%;
+    left: 48%;
+    width: 73px;
+    height: 40px;
+    cursor: text;
+}
+
+#loc {
+    position: absolute;
+    top: 52%;
+    left: 40.2%;
+    width: 370px;
+    height: 80px;
+    cursor: text;
+}
+
+#view {
+    position: absolute;
+    right: 21.4%;
+    top: 14.4%;
+    width: 45px;
+    height: 97px;
+    cursor: pointer;
+}
+
+#forward {
+    position: absolute;
+    top: 51.4%;
+    right: 21.4%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#stats {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 11px;
+    background-color: white;
+}
+
+#logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 20px;
+}
+
+#hr1 {
+    width: 70%;
+    background-color: #EFEFF4;
+    height: 1px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#contact {
+    position: relative;
+    left: 14%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#phone {
+    margin-left: 50px;
+}
+
+#location {
+    margin-left: 70px;
+}
+
+#mail {
+    margin-left: 60px;
+}
+
+.infos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 170px;
+
+}
+
+.valueName {
+    font-size: 28px;
+    font-family: 'Playfair Display', Sans Serif;
+    color: #1B2437;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.value {
+    font-size: 16px;
+    font-family: 'Muli';
+    color: #8E8E93;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#number {
+    padding-top: 28px;
+}
+
+#hr2 {
+    width: 70%;
+    background-color: #EFEFF4;
+    height: 1px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.media {
+    display: flex;
+    position: relative;
+    left:28%;
+}
+
+.section {
+    display: flex;
+}
+
+.mediastats {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+}
+
+.media img {
+    margin-right: 16px;
+}
+
+#yt {
+    position: relative;
+    width: 40px;
+    bottom: 45px;
+}
+
+#tw {
+    position: relative;
+    width: 30px;
+    bottom: 35px;
+}
+
+#pin {
+    position: relative;
+    width: 27px;
+    bottom: 35px;
+}
+
+.mediaStatsValue {
+    font-size: 24px;
+    font-family: 'Muli';
+    color: #1B2437;
+    font-weight: bold;
+}
+
+.mediaStatsName {
+    font-size: 18px;
+    font-family: 'Muli';
+    color: #8E8E93;
+}
+
